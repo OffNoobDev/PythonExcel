@@ -1,0 +1,22 @@
+A biblioteca utilizada para criar DATAFRAME em PYTHON é PANDAS. 
+Instalação da Biblioteca: (pip install pandas).
+Utilizando a biblioteca 'pandas' em um arquivo.py: (import pandas as pd)
+
+Dicionário com lista:
+    nomes = {
+        'Nome': ['Eduardo','Louyse','Patrícia','Maria'],
+        'Idade': ['18','6','25','54']
+    }
+
+Print:
+          Nome Idade
+    0   Eduardo    18
+    1    Louyse     6
+    2  Patrícia    25
+    3     Maria    54
+
+Métodos no PANDAS para a manipulação de DATAFRAME:
+    1 - list(dt.columns) - Exibi os nomes de todas as colunas do dataframe 
+    1.1 - dt["Nome"] - Exibi todos os dados da coluna indicada entre aspas.
+    2 - list(dt.shape) - Mostra quantas linhas e colunas o dataframe tem, respectivamente.
+    3 - list(dt.index) - mostra quantas linhas tem o datafram, pois os indices são as linhas.

@@ -1,0 +1,24 @@
+A biblioteca pandas é uma das ferramentas mais populares para manipulação e análise de dados em Python. Ela oferece estruturas de dados flexíveis, como DataFrame e Series, que facilitam a leitura, análise, limpeza e manipulação de grandes conjuntos de dados.
+
+Estruturas de Dados Principais do pandas
+    Series: Representa uma coluna ou uma sequência de dados com um rótulo para cada valor. É similar a um vetor unidimensional.
+        a    10
+        b    20
+        c    30
+        dtype: int64
+    
+    DataFrame: Estrutura bidimensional, como uma tabela, com rótulos para linhas e colunas. Cada coluna de um DataFrame é uma Series.
+
+1. Leitura e Escrita de Dados
+2. Seleção e Filtragem de Dados
+3. Manipulação de Dados
+4. Tratamento de Dados Faltantes
+5. Estatísticas Descritivas
+6. Mesclagem e Combinação de Dados
+
+    Vantagens do pandas
+        Eficiência: Trabalha com grandes conjuntos de dados de forma rápida e eficiente.
+        Flexibilidade: Oferece operações complexas de análise e manipulação de dados.
+        Integração: Compatível com outras bibliotecas Python, como NumPy, Matplotlib, e Scikit-Learn.
+        Tratamento de dados faltantes: Lida facilmente com valores ausentes.
+        A biblioteca pandas é essencial para cientistas de dados, analistas e desenvolvedores que precisam trabalhar com manipulação e análise de dados de maneira eficiente em Python.

@@ -20,3 +20,17 @@ Métodos no PANDAS para a manipulação de DATAFRAME:
     1.1 - dt["Nome"] - Exibi todos os dados da coluna indicada entre aspas.
     2 - list(dt.shape) - Mostra quantas linhas e colunas o dataframe tem, respectivamente.
     3 - list(dt.index) - mostra quantas linhas tem o datafram, pois os indices são as linhas.
+
+Leitura de um arquivo EXCEL
+1 - Instalar a biblioteca (pip install openpyxl)
+2 - Colocar o arquivo Excel na pasta 
+3 - tabela_ver = pd.read_excel('arquivo.xlsx')
+4 - python arquivo.py
+
+df = DataFrame(cadastros)
+df.head(3) 
+No caso acima, aparecerá apenas os três primeiros dados da tabela.
+
+df.tail()
+Os últimos, serão exibido.
+

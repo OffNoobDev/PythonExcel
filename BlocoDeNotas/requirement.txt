@@ -1,5 +1,7 @@
-pandas 
-openpyxl
-Matplotlib
-treamlit
-pathlib
+BIBLIOTECAS UTILIZADAS:
+
+pandas - blioteca de análise e manipulação de dados.
+openpyxl - responsável por abrir arquivos EXCEL.
+Matplotlib - Responsável por da um estilo na dataframe.
+streamlit - criação do webApp
+pathlib - Trabalha com caminhos url no python

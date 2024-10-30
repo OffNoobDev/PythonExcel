@@ -34,3 +34,25 @@ No caso acima, aparecerá apenas os três primeiros dados da tabela.
 df.tail()
 Os últimos, serão exibido.
 
+Series - é unidimensional
+DataFrame - é bidimensional
+
+Selecionar uma coluna:
+    
+    df['Nome_da_coluna']
+
+Mais de uma coluna:
+
+    df[['Nome_da_coluna']['Outra_coluna']]
+
+Selecionar uma linha: 
+
+    df.iloc[1:4] - será selecionados os index nesse intervalo.
+
+    df.loc... - estudar sobre
+
+Adicionar uma nova coluna:
+
+    df.['Nova_coluna'] = 'valor_da_coluna'
+    df.['Cidade onde nasceu'] = ['Santa Luzia', 'Alto Alegre do Pindaré'] - com uma lista.
+    

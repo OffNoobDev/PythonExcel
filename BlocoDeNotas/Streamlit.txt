@@ -1,0 +1,11 @@
+Iniciar o streamlit
+    streamlit run ./Pasta/Arquivo.py
+
+    import streamlit as st
+
+st.writw('Hello World!!') - Escrever algo na tela.
+
+st.strop() - encerrar o streamlit
+ctrl + c - no terminal também finaliza o streamlit
+
+st.dataframe() - função específica para exibir o dataframe.
